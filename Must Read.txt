@@ -1,0 +1,28 @@
+# Menu tersedia hanya terdiri dari tiga pilihan:
+- bcgrup
+- bcall
+- bclist
+Anda dapat mengetik /menu untuk melihat daftar menu yang tersedia.
+
+- Untuk fitur bclist, Anda dapat menambahkan daftar nomor telepon dalam file list.json
+Berikut contoh format pengisian: ["6281259261277","62812710385261","6289530877869"]
+Harap memastikan formatnya benar seperti contoh di atas untuk menghindari kesalahan yang dapat menghambat fungsi bot.
+
+- Jika saat menggunakan fitur tertentu muncul pesan berikut:
+
+"⛔ *AKSES DI TOLAK* ⛔
+
+Perintah ini hanya bisa digunakan oleh orang ganteng."
+
+Silakan buka file config.js dan pada bagian global.owner = ['6285157729639'], gantilah dengan nomor WhatsApp Anda (bukan nomor bot).
+
+- Atur waktu tunda pengiriman pesan untuk mengurangi risiko pemblokiran dengan mengubah nilai di file config.js pada bagian global.delayy = 2000
+
+# Pengaturan Delay Pengiriman Pesan
+
+Untuk mengurangi risiko akun diblokir, atur jeda waktu pengiriman pesan di file config.js pada bagian global.delayy.
+
+Contoh:
+
+global.delayy = 2000 // Jeda 2 detik
+global.delayy = 10000 // Jeda 10 detik
